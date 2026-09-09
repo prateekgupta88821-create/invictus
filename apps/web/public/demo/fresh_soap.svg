@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect x="20" y="20" width="760" height="560" rx="16" fill="#f0fdf4" stroke="#16a34a" stroke-width="4"/>
+  <rect x="20" y="20" width="760" height="110" rx="16" fill="#15803d"/>
+  <text x="400" y="70" font-family="Arial" font-weight="900" font-size="34" fill="#ffffff" text-anchor="middle">FRESH GLOW HERBAL SOAP</text>
+  <text x="400" y="100" font-family="Arial" font-weight="bold" font-size="16" fill="#bbf7d0" text-anchor="middle">GRADE 1 TOILET SOAP &bull; TFM 76%</text>
+
+  <rect x="50" y="160" width="420" height="380" rx="8" fill="#ffffff" stroke="#bbf7d0" stroke-width="2"/>
+  <text x="70" y="200" font-family="Arial" font-weight="bold" font-size="14" fill="#14532d">LEGAL METROLOGY COMPLIANT LABEL</text>
+  
+  <text x="70" y="240" font-family="Arial" font-size="13" fill="#64748b">Manufacturer: <tspan font-weight="bold" fill="#0f172a">Fresh Organics India Ltd</tspan></text>
+  <text x="70" y="265" font-family="Arial" font-size="12" fill="#334155">Village Baddi, Distt Solan, HP - 173205</text>
+  
+  <text x="70" y="310" font-family="Arial" font-size="13" fill="#64748b">Net Weight: <tspan font-weight="bold" font-size="18" fill="#14532d">125 g</tspan> (when packed)</text>
+  
+  <text x="70" y="360" font-family="Arial" font-size="13" fill="#64748b">Mfg Date: <tspan font-weight="bold" fill="#0f172a">06/2026</tspan> &bull; Batch: <tspan font-weight="bold" fill="#0f172a">FG-264</tspan></text>
+  <text x="70" y="385" font-family="Arial" font-size="12" fill="#64748b">Use Before: 24 Months from Mfg</text>
+  
+  <text x="70" y="440" font-family="Arial" font-size="12" fill="#334155">Consumer Care: 1800-111-9988 | care@freshglow.com</text>
+  <text x="70" y="465" font-family="Arial" font-weight="bold" font-size="12" fill="#15803d">Made in India</text>
+
+  <rect x="500" y="160" width="250" height="190" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+  <rect x="500" y="160" width="250" height="35" rx="8" fill="#16a34a"/>
+  <text x="625" y="184" font-family="Arial" font-weight="bold" font-size="13" fill="#ffffff" text-anchor="middle">MAX RETAIL PRICE</text>
+  <text x="520" y="235" font-family="Arial" font-weight="900" font-size="28" fill="#15803d">₹ 48.00</text>
+  <text x="520" y="260" font-family="Arial" font-size="12" fill="#475569">(incl. of all taxes)</text>
+  <line x1="520" y1="275" x2="730" y2="275" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="520" y="300" font-family="Arial" font-size="12" fill="#64748b">Unit Sale Price:</text>
+  <text x="520" y="325" font-family="Arial" font-weight="bold" font-size="16" fill="#0f2942">₹ 0.38 per g</text>
+</svg>

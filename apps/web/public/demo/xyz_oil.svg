@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="oilbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="760" height="560" rx="16" fill="url(#oilbg)" stroke="#eab308" stroke-width="4"/>
+  <rect x="20" y="20" width="760" height="110" rx="16" fill="#854d0e"/>
+  <text x="400" y="70" font-family="Arial" font-weight="900" font-size="32" fill="#ffffff" text-anchor="middle">XYZ AGRO PURE MUSTARD OIL</text>
+  <text x="400" y="100" font-family="Arial" font-weight="bold" font-size="16" fill="#fef08a" text-anchor="middle">KACHI GHANI &bull; EDIBLE VEGETABLE OIL</text>
+
+  <!-- Non-compliant incomplete panel -->
+  <rect x="50" y="160" width="440" height="380" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="195" font-family="Arial" font-weight="bold" font-size="14" fill="#0f172a">PACKAGING PARTICULARS</text>
+  <line x1="70" y1="205" x2="470" y2="205" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <text x="70" y="240" font-family="Arial" font-size="13" fill="#64748b">Manufactured by: <tspan font-weight="bold" fill="#0f172a">XYZ Agro Mills</tspan></text>
+  <text x="70" y="265" font-family="Arial" font-size="13" fill="#b91c1c">Alwar, Rajasthan (INCOMPLETE ADDRESS - NO PIN)</text>
+
+  <text x="70" y="310" font-family="Arial" font-size="13" fill="#64748b">Declared Net Volume:</text>
+  <text x="70" y="335" font-family="Arial" font-weight="bold" font-size="22" fill="#0f2942">Quantity: 1 Liter</text>
+
+  <text x="70" y="380" font-family="Arial" font-size="13" fill="#64748b">Date of Packing: <tspan font-weight="bold" fill="#0f172a">07/2026</tspan></text>
+  <text x="70" y="410" font-family="Arial" font-size="13" fill="#64748b">Batch: <tspan font-weight="bold" fill="#0f172a">MZ-99</tspan></text>
+  
+  <text x="70" y="460" font-family="Arial" font-size="12" fill="#dc2626">Call 9811XXXXXX for feedback (INCOMPLETE HELPLINE)</text>
+
+  <!-- Missing tax declaration & USP -->
+  <rect x="510" y="160" width="240" height="180" rx="8" fill="#ffffff" stroke="#f59e0b" stroke-width="2"/>
+  <text x="530" y="200" font-family="Arial" font-size="13" fill="#64748b">Declared Price:</text>
+  <text x="530" y="240" font-family="Arial" font-weight="bold" font-size="28" fill="#d97706">Price: 195</text>
+  <text x="530" y="265" font-family="Arial" font-size="11" fill="#dc2626">&#9888; Missing "₹" symbol</text>
+  <text x="530" y="285" font-family="Arial" font-size="11" fill="#dc2626">&#9888; Missing "incl. of all taxes"</text>
+  <text x="530" y="310" font-family="Arial" font-size="11" fill="#dc2626">&#9888; Unit Sale Price (USP) missing</text>
+</svg>

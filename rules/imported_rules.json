@@ -1,0 +1,52 @@
+{
+  "version": "LMPC-IMPORT-v1.0",
+  "title": "Legal Metrology Imported Commodities Compliance Rules",
+  "rules": [
+    {
+      "id": "LM_IMP_COO_001",
+      "rule_code": "LM_IMP_COO_001",
+      "name": "Country of Origin Mandatory Declaration",
+      "description": "Rule 6(1)(g): The name of the country of origin or manufacture or assembly shall be mentioned on imported packages.",
+      "field": "country_of_origin",
+      "required": true,
+      "severity": "critical",
+      "condition": "exists_and_not_blank",
+      "weight": 20,
+      "confidence_threshold": 0.70,
+      "active": true,
+      "failure_message": "Country of Origin not declared on imported commodity package.",
+      "remediation": "Prominently declare 'Country of Origin: [Country]' or 'Made in [Country]'."
+    },
+    {
+      "id": "LM_IMP_NAME_001",
+      "rule_code": "LM_IMP_NAME_001",
+      "name": "Importer Name and Address in India",
+      "description": "Declaration of registered Indian importer identity and complete address.",
+      "field": "importer",
+      "required": true,
+      "severity": "critical",
+      "condition": "exists_and_not_blank",
+      "weight": 15,
+      "confidence_threshold": 0.65,
+      "active": true,
+      "failure_message": "Indian Importer name/address is missing.",
+      "remediation": "Print 'Imported & Marketed in India by: [Name & Complete Address with PIN]'."
+    },
+    {
+      "id": "LM_IMP_DATE_001",
+      "rule_code": "LM_IMP_DATE_001",
+      "name": "Month and Year of Import",
+      "description": "Declaration of month and year of import into India.",
+      "field": "import_date",
+      "alternative_fields": ["packing_date", "manufacturing_date"],
+      "required": true,
+      "severity": "major",
+      "condition": "valid_month_year_format",
+      "weight": 10,
+      "confidence_threshold": 0.60,
+      "active": true,
+      "failure_message": "Date of import not declared.",
+      "remediation": "Print 'Month & Year of Import: MM/YYYY'."
+    }
+  ]
+}

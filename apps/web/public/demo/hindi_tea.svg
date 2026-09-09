@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect x="20" y="20" width="760" height="560" rx="16" fill="#fdf4ff" stroke="#a21caf" stroke-width="4"/>
+  <rect x="20" y="20" width="760" height="110" rx="16" fill="#701a75"/>
+  <text x="400" y="70" font-family="'Segoe UI', sans-serif" font-weight="900" font-size="34" fill="#ffffff" text-anchor="middle">अमृत प्रीमियम असम चाय &bull; AMRIT TEA</text>
+  <text x="400" y="100" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="16" fill="#f5d0fe" text-anchor="middle">शुद्ध कड़क दानेदार चाय &bull; १००% भारतीय चाय</text>
+
+  <rect x="50" y="150" width="440" height="400" rx="8" fill="#ffffff" stroke="#f0abfc" stroke-width="2"/>
+  <text x="70" y="185" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="14" fill="#701a75">विधिक मापविज्ञान अनिवार्य घोषणाएँ (LMPC 2011)</text>
+  
+  <text x="70" y="225" font-family="'Segoe UI', sans-serif" font-size="13" fill="#701a75">निर्माता (Manufacturer):</text>
+  <text x="70" y="248" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="14" fill="#0f172a">अमृत बेवरेजेस प्राइवेट लिमिटेड</text>
+  <text x="70" y="270" font-family="'Segoe UI', sans-serif" font-size="12" fill="#334155">औद्योगिक क्षेत्र, गुवाहाटी, असम - 781001</text>
+
+  <text x="70" y="315" font-family="'Segoe UI', sans-serif" font-size="13" fill="#701a75">शुद्ध मात्रा (Net Quantity):</text>
+  <text x="70" y="345" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="22" fill="#701a75">२५० ग्राम (250 g)</text>
+
+  <text x="70" y="390" font-family="'Segoe UI', sans-serif" font-size="13" fill="#334155">उत्पादन माह एवं वर्ष: <tspan font-weight="bold" fill="#0f172a">08/2026</tspan> &bull; बैच: <tspan font-weight="bold" fill="#0f172a">AT-108</tspan></text>
+  
+  <text x="70" y="440" font-family="'Segoe UI', sans-serif" font-size="12" fill="#334155">उपभोक्ता सहायता: 1800-419-0022 | sahayata@amritbev.in</text>
+  <text x="70" y="470" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="12" fill="#15803d">&#10003; 100% शाकाहारी उत्पाद &bull; भारत में निर्मित (Made in India)</text>
+
+  <rect x="515" y="150" width="240" height="200" rx="8" fill="#ffffff" stroke="#a21caf" stroke-width="2"/>
+  <rect x="515" y="150" width="240" height="35" rx="8" fill="#a21caf"/>
+  <text x="635" y="174" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="12" fill="#ffffff" text-anchor="middle">अधिकतम खुदरा मूल्य</text>
+  <text x="530" y="225" font-family="'Segoe UI', sans-serif" font-weight="900" font-size="28" fill="#701a75">₹ 140.00</text>
+  <text x="530" y="250" font-family="'Segoe UI', sans-serif" font-size="11" fill="#475569">(सभी कर सहित)</text>
+  <line x1="530" y1="265" x2="730" y2="265" stroke="#f5d0fe" stroke-width="1"/>
+  <text x="530" y="290" font-family="'Segoe UI', sans-serif" font-size="12" fill="#64748b">इकाई विक्रय मूल्य:</text>
+  <text x="530" y="315" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="16" fill="#0f2942">₹ 0.56 प्रति ग्राम</text>
+</svg>

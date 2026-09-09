@@ -1,0 +1,37 @@
+{
+  "version": "LMPC-FOOD-v1.0",
+  "title": "Legal Metrology Packaged Food Commodities Special Rules",
+  "rules": [
+    {
+      "id": "LM_FOOD_EXP_001",
+      "rule_code": "LM_FOOD_EXP_001",
+      "name": "Best Before / Expiry Declaration",
+      "description": "For pre-packaged food commodities, 'Best Before' or 'Use By' date must be stated alongside manufacturing date.",
+      "field": "expiry_date",
+      "alternative_fields": ["best_before"],
+      "required": true,
+      "severity": "critical",
+      "condition": "exists_and_not_blank",
+      "weight": 15,
+      "confidence_threshold": 0.65,
+      "active": true,
+      "failure_message": "Best before or Expiry date declaration not found on prepackaged food commodity.",
+      "remediation": "Print 'Best Before 6 Months from Mfg' or specific expiry MM/YYYY date."
+    },
+    {
+      "id": "LM_FOOD_VEG_001",
+      "rule_code": "LM_FOOD_VEG_001",
+      "name": "Veg / Non-Veg Indicator Symbol",
+      "description": "Mandatory green dot / brown triangle indicator for packaged consumable food items under FSSAI harmonization.",
+      "field": "veg_indicator",
+      "required": false,
+      "severity": "minor",
+      "condition": "exists_and_not_blank",
+      "weight": 5,
+      "confidence_threshold": 0.50,
+      "active": true,
+      "failure_message": "Vegetarian or non-vegetarian logo emblem not detected.",
+      "remediation": "Display the green circle in green bordered square for vegetarian food or brown triangle for non-vegetarian."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e7"/>
+      <stop offset="100%" stop-color="#fae8b6"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Package Outer Wrapper -->
+  <rect x="20" y="20" width="760" height="560" rx="16" fill="url(#bg)" stroke="#d4a34b" stroke-width="4" filter="url(#shadow)"/>
+
+  <!-- Brand Banner -->
+  <rect x="20" y="20" width="760" height="110" rx="16" fill="#b91c1c"/>
+  <rect x="20" y="110" width="760" height="20" fill="#dc2626"/>
+
+  <text x="400" y="72" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="34" fill="#ffffff" text-anchor="middle" letter-spacing="2">ABC BUTTER DELITE</text>
+  <text x="400" y="102" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="18" fill="#fef08a" text-anchor="middle" letter-spacing="1">RICH BUTTER COOKIES &bull; BISCUITS</text>
+
+  <!-- Veg Emblem -->
+  <rect x="710" y="45" width="40" height="40" fill="#ffffff" stroke="#15803d" stroke-width="3" rx="4"/>
+  <circle cx="730" cy="65" r="12" fill="#15803d"/>
+
+  <!-- Left Column: Legal Declarations (Rule 6) -->
+  <rect x="50" y="160" width="420" height="380" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <text x="70" y="195" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="14" fill="#1e293b">STATUTORY DECLARATIONS (LMPC RULES 2011)</text>
+  <line x1="70" y1="205" x2="450" y2="205" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Common Name -->
+  <text x="70" y="230" font-family="Arial" font-size="12" fill="#64748b">Generic / Common Name:</text>
+  <text x="70" y="248" font-family="Arial" font-weight="bold" font-size="14" fill="#0f172a">Biscuits (Bakery Product)</text>
+
+  <!-- Manufacturer -->
+  <text x="70" y="280" font-family="Arial" font-size="12" fill="#64748b">Manufactured &amp; Packed By:</text>
+  <text x="70" y="298" font-family="Arial" font-weight="bold" font-size="13" fill="#0f172a">ABC Foods India Private Limited</text>
+  <text x="70" y="316" font-family="Arial" font-size="12" fill="#334155">Plot 42, Industrial Area, Okhla Phase-III,</text>
+  <text x="70" y="334" font-family="Arial" font-size="12" fill="#334155">New Delhi - 110020, India</text>
+
+  <!-- Net Quantity -->
+  <text x="70" y="370" font-family="Arial" font-size="12" fill="#64748b">Net Quantity:</text>
+  <text x="70" y="392" font-family="Arial" font-weight="bold" font-size="20" fill="#0f2942">500 g</text>
+
+  <!-- Dates -->
+  <text x="70" y="430" font-family="Arial" font-size="12" fill="#64748b">Mfg Date: <tspan font-weight="bold" fill="#0f172a">08/2026</tspan> &bull; Batch No: <tspan font-weight="bold" fill="#0f172a">AB-8421</tspan></text>
+  <text x="70" y="452" font-family="Arial" font-size="12" fill="#64748b">Best Before 6 Months from packaging</text>
+
+  <!-- Consumer Care -->
+  <text x="70" y="488" font-family="Arial" font-size="11" fill="#64748b">Consumer Care Officer: 1800-200-4567 | care@abcfoods.in</text>
+  <text x="70" y="508" font-family="Arial" font-size="11" fill="#64748b">Country of Origin: India</text>
+
+  <!-- Right Column: Price & USP Block -->
+  <rect x="490" y="160" width="260" height="200" rx="8" fill="#f8fafc" stroke="#0f2942" stroke-width="2"/>
+  <rect x="490" y="160" width="260" height="35" rx="8" fill="#0f2942"/>
+  <text x="620" y="184" font-family="'Segoe UI', Arial, sans-serif" font-weight="bold" font-size="13" fill="#ffffff" text-anchor="middle">RETAIL SALE PRICE</text>
+
+  <text x="510" y="225" font-family="Arial" font-size="12" fill="#64748b">Maximum Retail Price (MRP):</text>
+  <text x="510" y="260" font-family="Arial" font-weight="900" font-size="26" fill="#b91c1c">₹ 120.00</text>
+  <text x="510" y="280" font-family="Arial" font-size="11" fill="#475569">(Inclusive of all taxes)</text>
+
+  <line x1="510" y1="295" x2="730" y2="295" stroke="#cbd5e1" stroke-width="1"/>
+  
+  <text x="510" y="320" font-family="Arial" font-size="11" fill="#64748b">Unit Sale Price (USP):</text>
+  <text x="510" y="342" font-family="Arial" font-weight="bold" font-size="15" fill="#0f2942">₹ 0.24 / g</text>
+
+  <!-- Barcode Simulation -->
+  <g transform="translate(510, 390)">
+    <rect x="0" y="0" width="220" height="120" fill="#ffffff" stroke="#cbd5e1" rx="4"/>
+    <text x="110" y="20" font-family="monospace" font-size="11" fill="#475569" text-anchor="middle">BARCODE / GTIN</text>
+    <rect x="25" y="30" width="4" height="60" fill="#000"/>
+    <rect x="33" y="30" width="2" height="60" fill="#000"/>
+    <rect x="40" y="30" width="6" height="60" fill="#000"/>
+    <rect x="52" y="30" width="3" height="60" fill="#000"/>
+    <rect x="62" y="30" width="8" height="60" fill="#000"/>
+    <rect x="76" y="30" width="2" height="60" fill="#000"/>
+    <rect x="84" y="30" width="5" height="60" fill="#000"/>
+    <rect x="95" y="30" width="3" height="60" fill="#000"/>
+    <rect x="104" y="30" width="6" height="60" fill="#000"/>
+    <rect x="118" y="30" width="4" height="60" fill="#000"/>
+    <rect x="128" y="30" width="7" height="60" fill="#000"/>
+    <rect x="142" y="30" width="2" height="60" fill="#000"/>
+    <rect x="150" y="30" width="5" height="60" fill="#000"/>
+    <rect x="162" y="30" width="8" height="60" fill="#000"/>
+    <rect x="176" y="30" width="3" height="60" fill="#000"/>
+    <rect x="185" y="30" width="4" height="60" fill="#000"/>
+    <text x="110" y="105" font-family="monospace" font-weight="bold" font-size="11" fill="#000" text-anchor="middle">8 901234 567890</text>
+  </g>
+</svg>
